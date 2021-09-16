@@ -1,0 +1,114 @@
+@media screen and (max-width:991px) {
+    
+    html{
+        font-size: 70%;
+    }
+
+    .header{
+        padding: 1.5rem 2rem;
+    }
+
+}
+
+@media screen and (max-width:720px) {
+    
+    #menu-btn{
+        display: inline-block;
+    }
+
+    .header .navbar{
+        position: absolute;
+        top: 108%;right: -100%;
+        background: #e7e7e7;
+        width: 30rem;
+        height: calc(100vh-9.5rem);
+        border-radius: 6px;
+    }
+
+    .home{
+        min-height: 70vh;
+    }
+
+    .header .navbar.active{
+        right: 1%; 
+    }
+
+    .header .navbar a{
+        color: var(--black);
+        display: block;
+        margin: 1.5rem;
+        padding: .5rem;
+        font-size: 2rem ;
+    }
+
+    .header .search-form{
+        width:90%;
+        right: 2rem;
+    }
+
+    .home{
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .home .content h3{
+        font-size: 4.5rem;
+    }
+
+    .home .content p{
+        font-size: 1.5rem;
+    }
+
+    section{
+        padding: 2rem 3%;
+    }
+
+    .menu .box-container .box{
+        padding: 2rem 5rem;
+    }
+
+    .menu .box-container .box img{
+        height: 8rem;
+    }
+
+    .products .box-container .box{
+        padding: 2rem 5rem;
+    }
+
+    .products .box-container .box .image img{
+        height: 20rem;
+    }
+
+    .heading{
+        font-size: 3.5rem;
+        padding-bottom: 3rem;
+    }
+
+
+
+}
+
+@media screen and (max-width:450px) {
+    
+    html{
+        font-size: 50%;
+    }
+
+    .footer .share{
+        padding:.5rem 0;
+    }
+
+    .footer .share a{
+        height: 4rem;
+        width: 4rem;
+        line-height: 4rem;
+        font-size: 1.5rem;
+        margin:.2rem;
+    }
+    
+    .footer .credit{
+        font-size: 1.5rem;
+        padding:.5rem 1rem;
+    }
+}
